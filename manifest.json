@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "firefox-history-limit",
+    "version": "0.1",
+    "description": "",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "history",
+        "storage"
+    ],
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    }
+}
